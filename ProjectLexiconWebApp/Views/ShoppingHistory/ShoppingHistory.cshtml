@@ -2,7 +2,7 @@
 <div>
     <h2>Shopping History </h2>
     <p> <a class="btn btn-success" href="/ShoppingHistory/Index/@Model.EMail">Back to User Page</a> </p>
-    <h5>Customer Name: @Model.FirstName @Model.LastName</h5>
+    <h5>@Model.FirstName @Model.LastName</h5>
     @if (Model.Orders.Count() == 0)
     {
         <h3>Your shopping history is empty!</h3>
